@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Roboto+Slab&display=swap');
+
+:root{ 
+	--cor-primaria: #000080;
+	--cor-secundaria:#9370DB;
+	--cor-terciaria: #6797E7;
+	--cor-background: #ffffff;
+
+	--font-primaria: 'Jost', sans-serif;
+	--font-secundaria: 'Roboto Slab', serif;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	box-sizing: border-box;
+	background-color: var(--cor-background);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-attachment: fixed;
+}
+
+.cabecalho{
+	padding: 1% 0% 0% 70%;
+}
+
+.cabecalho__menu{
+	display: flex;
+	gap: 50px;
+}
+
+.cabecalho__menu__link{
+	font-family: var(--font-secundaria);
+	font-size: 20px;
+	font-weight: 400;
+	color: #000000;
+	text-decoration: none;
+}
+
+.cabecalho__menu__link__acesso{
+	font-family: var(--font-secundaria);
+	font-size: 20px;
+	font-weight: 400;
+	color: #000000;
+	text-decoration: none;
+}
+
+
+
+.rodape{
+    position: absolute;
+    bottom: 0;
+    background-color: var(--cor-terciaria);
+    color: #000000;
+    width: 100%;
+    height: 50px;    
+    text-align: center;
+    line-height: 50px;
+	font-family: var(--font-secundaria);
+}

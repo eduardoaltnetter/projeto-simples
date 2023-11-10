@@ -1,0 +1,15 @@
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initilal-scale=1.0">
+		<meta http-equiv="x-ua-compatible" content="google">
+		<title>Clinica Médica</title>
+	</head>
+	<body>
+		<main class="principal">
+			<div>
+				<h1>Titulo dentro</h1>
+			</div>
+		</main>
+	</body>
+</html>

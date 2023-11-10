@@ -1,0 +1,40 @@
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initilal-scale=1.0">
+		<meta http-equiv="x-ua-compatible" content="google">
+		<title>Clinica Médica</title>
+		<link rel="stylesheet" href="./styles/style.css">
+		
+	</head>
+	<body>
+		<header class="cabecalho">
+			<nav class="cabecalho__menu">
+				<a class="cabecalho__menu__link" href="index.html">Home</a>
+				<a class="cabecalho__menu__link" href="contato.html">Contato</a>
+				<a class="cabecalho__menu__link__acesso" href="cadastro.html">Cadastro</a>
+				|
+				<a class="cabecalho__menu__link__acesso" href="login.html">Login</a>
+			</nav>
+		</header>
+		
+		<main class="principal">
+			<section class="principal__conteudo">
+				<h1 class="principal__conteudo__titulo">Clinica Médica ----</h1>
+				<h2 class="principal__conteudo__subtitulo">SUA SAÚDE NOSSA MISSÃO</h2>
+				<div class="principal__links">
+					<a class="principal__links__navegacao" href="agendar.html">
+						Agende agora
+					</a>
+					<a class="principal__links__navegacao"  href="saibamais.html">
+						Saiba mais
+					</a>
+				</div>
+			</section>
+		</main>
+		
+		<footer>
+			<p class="rodape">Desenvolvido por Alessandra e Eduardo</p>
+		</footer>
+	</body>
+</html>

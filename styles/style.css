@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Roboto+Slab&display=swap');
+
+:root{ 
+	--cor-primaria: #000080;
+	--cor-secundaria:#9370DB;
+	--cor-terciaria: #6797E7;
+	--cor-background: #ffffff;
+
+	--font-primaria: 'Jost', sans-serif;
+	--font-secundaria: 'Roboto Slab', serif;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	box-sizing: border-box;
+	background-color: var(--cor-background);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-attachment: fixed;
+}
+
+
+.cabecalho{
+	padding: 1% 0% 0% 70%;
+}
+
+.cabecalho__menu{
+	display: flex;
+	gap: 50px;
+}
+
+.cabecalho__menu__link{
+	font-family: var(--font-secundaria);
+	font-size: 20px;
+	font-weight: 400;
+	color: #000000;
+	text-decoration: none;
+}
+
+.cabecalho__menu__link__acesso{
+	font-family: var(--font-secundaria);
+	font-size: 20px;
+	font-weight: 400;
+	color: #000000;
+	text-decoration: none;
+}
+
+.principal{
+	padding: 12% 3%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 82px;
+}
+
+.principal__conteudo{
+	width: 40%;
+	display: block;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.principal__conteudo__titulo{
+	font-size: 40px;
+	font-family: var(--font-primaria);
+	font-weight: 400;
+	font-style: normal;
+	line-height: 29px;
+	color: var(--cor-background);
+}
+
+.principal__conteudo__subtitulo{
+	font-size: 90px;
+	font-weight: 400;
+	font-family: var(--font-primaria);
+	font-style: normal;
+	line-height: 116px;
+	color: var(--cor-primaria);
+}
+
+.principal__links{
+	display: flex;
+	align-items: center;
+	gap: 80px;
+	
+
+}
+
+.principal__links__navegacao{
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	width: 35%;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 30px;
+	border: 2px solid #98a8f8;
+	font-size: 1.3rem;
+	font-weight: 400;
+	padding: 10px 0;
+	color: #000000;
+	font-family: var(--font-secundaria);
+
+}
+
+.principal__links__navegacao:hover{
+	background-color: #e0ffff;
+}
+
+.rodape{
+	position: absolute;
+    bottom: 0;
+    background-color: var(--cor-terciaria);
+    color: #000000;
+    width: 100%;
+    height: 50px;    
+    text-align: center;
+    line-height: 50px;
+	font-family: var(--font-secundaria);
+}
